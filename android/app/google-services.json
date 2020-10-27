@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "143149776908",
+    "firebase_url": "https://supervision-app-becfe.firebaseio.com",
+    "project_id": "supervision-app-becfe",
+    "storage_bucket": "supervision-app-becfe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143149776908:android:6e15ed685d54c1914dee29",
+        "android_client_info": {
+          "package_name": "com.tdarmo.supervision_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143149776908-n65sugpnvg7d7ancmja6k0ggppdue2jc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkSs48Qi9AzpzWa9gtZHeT05tk_a9rXHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143149776908-n65sugpnvg7d7ancmja6k0ggppdue2jc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

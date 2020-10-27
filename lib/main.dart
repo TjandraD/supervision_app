@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:supervision_app/screens/registration_screen.dart';
 import 'screens/welcome_screen.dart';
+import 'screens/login_screen.dart';
 
 void main() async {
   runApp(SupervisionApp());
@@ -16,6 +17,7 @@ class SupervisionApp extends StatelessWidget {
       routes: {
         WelcomeScreen.id: (context) => WelcomeScreen(),
         RegistrationScreen.id: (context) => RegistrationScreen(),
+        LoginScreen.id: (context) => LoginScreen(),
       },
     );
   }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:supervision_app/screens/login_screen.dart';
 import '../components/rounded_button.dart';
 import '../screens/registration_screen.dart';
 
@@ -39,7 +40,7 @@ class WelcomeScreen extends StatelessWidget {
               color: Colors.lightBlueAccent,
               title: 'Login',
               onPressed: () {
-                // Add navigation to login screen
+                Navigator.pushNamed(context, LoginScreen.id);
               },
             ),
             RoundedButton(

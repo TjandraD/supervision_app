@@ -18,9 +18,12 @@ class WelcomeScreen extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Image.asset(
-                  'images/logo.png',
-                  width: 60,
+                Hero(
+                  tag: 'logo',
+                  child: Image.asset(
+                    'images/logo.png',
+                    width: 60,
+                  ),
                 ),
                 SizedBox(
                   width: 10,
